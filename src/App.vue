@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="bg-red-500">ali</p>
+    <button class="rd-appstore-bg-green-500 hover:rd-appstore-bg-black hover:rd-appstore-text-white">Click me</button>
   </div>
 </template>
 
