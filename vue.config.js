@@ -34,21 +34,3 @@ module.exports = defineConfig({
     
   },
 })
-
-// defineConfig({
-//   filenameHashing: false,
-//   transpileDependencies: true,
-//   configureWebpack: {
-//     plugins: [
-//       new ModuleFederationPlugin({
-//         shared: {
-//           ...deps,
-//           vue: {
-//             singleton: true,
-//           },
-//         },
-//         remotes: {}
-//       })
-//     ]
-//   }
-// })

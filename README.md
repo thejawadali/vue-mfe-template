@@ -1,9 +1,12 @@
 # vue-mfe-template
 
-## Project setup
+## Clone to local
 ```
+npx degit thejawadali/vue-mfe-template my-mfe-app
+cd my-mfe-app
 npm install
 ```
+
 
 ### Compiles and hot-reloads for development
 ```
@@ -14,11 +17,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
