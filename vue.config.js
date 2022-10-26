@@ -16,13 +16,10 @@ module.exports = defineConfig({
     },
     plugins: [
       new ModuleFederationPlugin({
+        name: "vue_mfe_template",
         filename: 'remoteEntry.js',
-        exposes: {
-          // "./NavBar.vue": "./src/components/RealApp.vue"
-        },
-        remotes: {
-          // remote_1: "remote_1@http://localhost:3000/remoteEntry.js",
-        },
+        exposes: {},
+        remotes: {},
         shared: {
           ...deps,
           vue: {
